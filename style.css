@@ -1,0 +1,30 @@
+
+h1 {
+    width: 960px;
+    height: 50px;
+    margin: 0 auto;
+    border: 100px;
+}
+.banner{
+    width: 960px;
+    height: 350px;
+    margin: 0 auto;
+    animation: slide 7s infinite;
+    animation-direction: alternate;    
+}
+
+@keyframes slide {
+    0%, 30% {
+        background-image: url(../arquivos/olho1.jpg);
+
+    }
+
+    33%, 65% {
+        background-image: url(../arquivos/olho2.jpg);
+
+    }
+
+    68%, 100% {
+        background-image: url(/arquivos/olho3.jpg);
+    }
+}
